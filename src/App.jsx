@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { useState, useEffect } from "react";
 
 const R="#fb545b",BG="#0a0a0a",S1="#111115",S2="#18181d",BD="#252530";
