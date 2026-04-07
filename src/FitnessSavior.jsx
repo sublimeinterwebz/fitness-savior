@@ -133,8 +133,7 @@ function Login({onRole}){
         <div style={{width:42,height:42,borderRadius:9,background:'rgba(255,255,255,0.11)',border:'1px solid rgba(255,255,255,0.18)',display:'flex',alignItems:'center',justifyContent:'center',marginBottom:16}}>
           <svg width={20} height={20} viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round"><path d="M6 5v14M18 5v14M2 9h4M18 9h4M2 15h4M18 15h4"/></svg>
         </div>
-        <div style={{fontFamily:'DM Serif Display, serif',fontSize:30,color:'#fff',lineHeight:1.1,marginBottom:5}}>Fitness Savior</div>
-        <div style={{color:'rgba(255,255,255,0.38)',fontSize:11,fontWeight:700,letterSpacing:'2.5px',textTransform:'uppercase'}}>The Private Atelier Experience</div>
+        <div style={{fontFamily:'DM Serif Display, serif',fontSize:30,color:'#fff',lineHeight:1.1}}>Fitness Savior</div>
       </div>
 
       {/* Form area */}
@@ -853,18 +852,7 @@ export default function FitnessSavior(){
           }
         </div>
 
-        {/* Switch role button — outside the phone */}
-        {role&&(
-          <button onClick={handleLogout} style={{
-            position:'fixed',bottom:20,right:20,
-            background:C.primary,color:'#fff',
-            border:'none',borderRadius:8,
-            padding:'10px 16px',fontSize:12,fontWeight:700,
-            cursor:'pointer',letterSpacing:'0.5px',
-            boxShadow:'0 4px 16px rgba(0,0,0,0.25)',
-            zIndex:9999,
-          }}>Switch Role</button>
-        )}
+
       </div>
     </>
   );
